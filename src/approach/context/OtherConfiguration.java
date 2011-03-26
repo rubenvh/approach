@@ -10,7 +10,7 @@ public class OtherConfiguration implements IOtherConfiguration {
 	
 	public OtherConfiguration(String filename)
 	{
-		_config = new ConfigurationFile(Other.get_instance(), filename);
+		_config = new ConfigurationFile(Other.get_instance().loadStrings(filename));
 	}
 	
 	

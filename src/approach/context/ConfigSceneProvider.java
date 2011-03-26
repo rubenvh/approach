@@ -16,8 +16,8 @@ public class ConfigSceneProvider implements ISceneProvider {
 	Collection<Scene> _scenes;
 	
 	public ConfigSceneProvider(String config)
-	{
-		_config = new ConfigurationFile(Other.get_instance(), config);
+	{		
+		_config = new ConfigurationFile(Other.get_instance().loadStrings(config));
 		
 		Iterator<String> keys = _config.keys();
 		_scenes = new ArrayList<Scene>(5);
