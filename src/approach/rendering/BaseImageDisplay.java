@@ -67,5 +67,10 @@ public class BaseImageDisplay extends OtherAppletDrawer {
 	public void mousePressed() { }
 	
 	public void mouseReleased() { }
+	public void cleanup()
+	{
+		// TODO Auto-generated method stub
+		
+	}
 
 }

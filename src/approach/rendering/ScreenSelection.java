@@ -119,4 +119,11 @@ public class ScreenSelection extends OtherAppletDrawer implements IAppletDrawer 
 
 	}
 
+
+	public void cleanup()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
 }

@@ -176,4 +176,11 @@ public class MotionDetection extends OtherAppletDrawer {
 	}
 
 
+	public void cleanup()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
+
 }

@@ -122,4 +122,11 @@ public class RegionOfInterestSelection extends OtherAppletDrawer implements
 		_theOther.line(x, y - 10, x, y + 10);
 	}
 
+
+	public void cleanup()
+	{
+		// TODO Auto-generated method stub
+		
+	}
+
 }
